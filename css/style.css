@@ -30,6 +30,26 @@ ul{
     /* gradient color */
 
 }
+h1{
+    font-family: 'Trebuchet MS';
+    font-size: 2.5rem;
+}
+h3{
+    font-family:Georgia ;
+    font-size: 1.3rem;
+}
+h2{
+    font-family: 'Lucida Sans'; 
+
+}
+.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family:Georgia ;
+    cursor: pointer;
+}
 
 /* Global Classes */
 
@@ -110,6 +130,47 @@ color: var(--white);
 }
 
 /* Navbar */
+/* Main Content */
+main .site-title{
+    background: url('../image/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+main .site-title h1, h3{
+    margin:2rem ;
+}
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content */
 /* Viewport <=750px */
 @media only screen and (max-width:750px){
     .nav .nav-menu,.nav  .nav-item{
